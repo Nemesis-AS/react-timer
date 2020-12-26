@@ -11,11 +11,15 @@
 }
 
 .button-section {
-    @apply flex justify-between;
+    @apply flex justify-evenly;
 }
 
 .option-btn {
     @apply p-2 m-2 bg-green-500 hover:bg-green-700 text-white rounded-lg;
+}
+
+.set-time {
+    @apply flex justify-center;
 }
 
 input {
